@@ -9,7 +9,6 @@ winget install --id=AgileBits.1Password -e
 winget install --id=WhatsApp.WhatsApp -e  
 winget install --id=OpenWhisperSystems.Signal
 winget install --id=Microsoft.WindowsTerminal -e
-winget install --id=LogiPresentation -e
 
 # Data
 winget install --id=Microsoft.AzureDataStudio -e
@@ -25,5 +24,6 @@ winget install --id=Microsoft.Bicep -e
 winget install --id=Postman.Postman -e
 
 # If needed
+winget install --id=LogiPresentation -e
 winget install --id=Elgato.ControlCenter -e  
 winget install --id=Elgato.StreamDeck -e  

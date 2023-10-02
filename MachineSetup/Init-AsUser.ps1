@@ -2,12 +2,14 @@
 mkdir c:\work
 mkdir c:\work\git
 
+## Problably will prompt for admin
 winget upgrade --all
 
-# as admin
+# Basics
+## Admin
 winget install --id=Microsoft.Edge.Beta -e
 
-# Basics
+## User
 winget install --id=AgileBits.1Password -e --scope user
 #Change to MSSTORE version
 #winget install --id=WhatsApp.WhatsApp -e --scope user
@@ -19,7 +21,10 @@ winget install --id=Microsoft.AzureDataStudio -e --scope user
 winget install --id=Microsoft.PowerBI -e --scope user
 
 # Dev
+## Admin
 winget install --id=Git.Git -e --accept-package-agreements --accept-source-agreements --scope user
+
+## User
 winget install --id=GitHub.cli -e --scope user
 winget install --id=Microsoft.VisualStudioCode -e --scope user
 winget install --id=JanDeDobbeleer.OhMyPosh -e --scope user

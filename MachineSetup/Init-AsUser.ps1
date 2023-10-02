@@ -12,11 +12,11 @@ winget install --id=Microsoft.Edge.Beta -e
 ## User
 winget install --id=Microsoft.PowerShell -e --scope user
 winget install --id=AgileBits.1Password -e --scope user
-winget install "WhatsApp" -s msstore --scope user --accept-source-agreements
+winget install "WhatsApp" -s msstore --accept-package-agreements
 winget install --id=OpenWhisperSystems.Signal -e --scope user
 winget install --id=Microsoft.WindowsTerminal -e --scope user
 
-winget install "Microsoft Teams" -s msstore --accept-source-agreements
+winget install "Microsoft Teams" -s msstore --accept-package-agreements
 
 # Data
 winget install --id=Microsoft.AzureDataStudio -e --scope user

@@ -4,13 +4,15 @@ mkdir c:\work\git
 
 winget upgrade --all
 
+# as admin
+winget install --id=Microsoft.Edge.Beta -e
+
 # Basics
 winget install --id=AgileBits.1Password -e --scope user
 #Change to MSSTORE version
 #winget install --id=WhatsApp.WhatsApp -e --scope user
 winget install --id=OpenWhisperSystems.Signal -e --scope user
 winget install --id=Microsoft.WindowsTerminal -e --scope user
-winget install --id=Microsoft.Edge.Beta -e
 
 # Data
 winget install --id=Microsoft.AzureDataStudio -e --scope user

@@ -10,7 +10,7 @@ winget install --id=AgileBits.1Password -e --scope user
 #winget install --id=WhatsApp.WhatsApp -e --scope user
 winget install --id=OpenWhisperSystems.Signal -e --scope user
 winget install --id=Microsoft.WindowsTerminal -e --scope user
-winget install --id=Microsoft.Edge.Beta -e --scope user
+winget install --id=Microsoft.Edge.Beta -e
 
 # Data
 winget install --id=Microsoft.AzureDataStudio -e --scope user

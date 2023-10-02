@@ -36,6 +36,12 @@ winget install --id=Microsoft.Azure.FunctionsCoreTools -e --scope user
 winget install --id=Microsoft.AzureCLI -e --scope user
 winget install --id=WiresharkFoundation.Wireshark -e --scope user
 
+# PowerShell Modules
+
+
+## Admin
+oh-my-posh font install
+
 # If needed
 winget install --id=LogiPresentation -e --scope user
 winget install --id=Yubico.YubikeyManager -e --scope user

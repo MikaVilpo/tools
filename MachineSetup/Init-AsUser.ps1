@@ -39,7 +39,7 @@ Install-Module Az.Beta -Scope CurrentUser
 # winget install --id=GitHub.cli -e
 # winget install --id=Microsoft.Azure.FunctionsCoreTools -e
 winget install --id=Microsoft.AzureCLI -e 
-# oh-my-posh font install
+# oh-my-posh font install AnonymicePro --user 
 
 # If needed
 #winget install --id=LogiPresentation -e --scope user

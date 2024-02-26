@@ -39,6 +39,8 @@ Install-Module Az.Beta -Scope CurrentUser
 Install-Module Microsoft.Graph -Scope CurrentUser
 Install-Module Microsoft.Graph.Beta -Scope CurrentUser
 
+Install-Module Terminal-Icons -Scope CurrentUser
+
 ## Admin
 # winget install --id=GitHub.cli -e
 # winget install --id=Microsoft.Azure.FunctionsCoreTools -e

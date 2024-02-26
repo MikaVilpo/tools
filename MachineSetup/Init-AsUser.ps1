@@ -31,7 +31,7 @@ winget install --id=JanDeDobbeleer.OhMyPosh -e --scope user
 winget install --id=Microsoft.Bicep -e --scope user
 winget install --id=Postman.Postman -e --scope user
 # winget install --id hashicorp.terraform --scope user
-# oh-my-posh font install --user 
+# oh-my-posh font install CascadiaCode --user
 
 # PowerShell Modules
 Install-Module Az -Scope CurrentUser
@@ -45,7 +45,6 @@ Install-Module Terminal-Icons -Scope CurrentUser
 # winget install --id=GitHub.cli -e
 # winget install --id=Microsoft.Azure.FunctionsCoreTools -e
 winget install --id=Microsoft.AzureCLI -e 
-
 
 # If needed
 #winget install --id=LogiPresentation -e --scope user
